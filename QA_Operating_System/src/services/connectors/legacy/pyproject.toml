@@ -1,0 +1,4 @@
+[project]
+name = "legacy-connector"
+version = "1.0.0"
+dependencies = ["connector-contract", "pydantic>=2.0"]

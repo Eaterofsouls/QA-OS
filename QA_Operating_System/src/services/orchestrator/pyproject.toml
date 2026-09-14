@@ -1,0 +1,17 @@
+[project]
+name = "orchestrator"
+version = "1.0.0"
+description = "LangGraph orchestration backbone"
+requires-python = ">=3.12"
+dependencies = ["langgraph>=1.2,<2.0", "pydantic>=2.0", "kg-client", "llm-gateway-client"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "pytest-asyncio>=0.23"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]

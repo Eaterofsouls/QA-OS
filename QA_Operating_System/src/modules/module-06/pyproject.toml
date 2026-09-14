@@ -1,0 +1,4 @@
+[project]
+name = "module-06"
+version = "1.0.0"
+dependencies = ["qa-schemas", "kg-client", "llm-gateway-client", "extraction", "connector-contract", "pydantic>=2.0"]

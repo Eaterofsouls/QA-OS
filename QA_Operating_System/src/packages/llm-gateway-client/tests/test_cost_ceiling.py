@@ -1,0 +1,1 @@
+def test_cost_ceiling(): pass

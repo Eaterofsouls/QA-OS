@@ -1,0 +1,4 @@
+[project]
+name = "graph-service"
+version = "1.0.0"
+dependencies = ["kg-client", "qa-schemas", "pydantic>=2.0"]

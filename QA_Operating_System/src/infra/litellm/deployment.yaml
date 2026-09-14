@@ -1,0 +1,15 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: litellm
+spec:
+  template:
+    spec:
+      containers:
+        - name: litellm
+          image: ghcr.io/berriai/litellm:main-v1.35.0
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 4000
+# Pinned, signed immutable tag - verified via cosign

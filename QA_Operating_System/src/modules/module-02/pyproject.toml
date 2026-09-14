@@ -1,0 +1,37 @@
+[project]
+name = "module-02"
+version = "1.0.0"
+description = "Module 2: Test Suite Generator (~30-41% mutation score target)"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "qa-schemas",
+    "kg-client",
+    "llm-gateway-client",
+    "extraction",
+    "config-service",
+    "module-01",
+    "pydantic>=2.0",
+    "langgraph>=1.2,<2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.23",
+    "pytest-mock>=3.12",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
+
+[tool.hatch.build.targets.wheel.sources]
+"." = "module_02"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]

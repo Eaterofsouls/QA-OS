@@ -1,0 +1,4 @@
+[project]
+name = "module-09"
+version = "1.0.0"
+dependencies = ["qa-schemas", "kg-client", "rendering", "pydantic>=2.0", "fastapi>=0.111", "sse-starlette>=1.8"]

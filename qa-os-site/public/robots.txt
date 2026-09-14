@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://qa.buildwithdaksh.com/sitemap.xml
