@@ -4,7 +4,7 @@ export const site = {
   domain: "qa.buildwithdaksh.com",
   parentDomain: "buildwithdaksh.com",
   parentUrl: "https://buildwithdaksh.com",
-  githubUrl: "https://github.com/dakshchauhan/qa-operating-system",
+  githubUrl: "https://github.com/Eaterofsouls/QA-OS",
   contactEmail: "me@buildwithdaksh.com",
   author: "Daksh Chauhan",
 };

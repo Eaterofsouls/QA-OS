@@ -15,7 +15,7 @@ module-status data in the `QA_Operating_System` repo's `README.md`.
 `src/lib/site.ts` is configured with:
 
 ```ts
-githubUrl: "https://github.com/dakshchauhan/qa-operating-system",
+githubUrl: "https://github.com/Eaterofsouls/QA-OS",
 contactEmail: "me@buildwithdaksh.com",
 ```
 
