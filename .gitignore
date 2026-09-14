@@ -1,49 +1,28 @@
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
 *.py[cod]
-*$py.class
-
-# Caches and virtual environments
-.pytest_cache/
-.ruff_cache/
-.mypy_cache/
 .venv/
-venv/
-ENV/
-env/
+.uv/
+*.egg-info/
+.pytest_cache/
 
-# Node & Next.js
+# Node
 node_modules/
 .next/
 out/
-build/
 dist/
-.turbo/
 
-# SQLite & local runtime storage
-*.sqlite
-*.sqlite3
-*.db
-kg_data.sqlite3
-
-# Environment and secrets
+# Env / secrets
 .env
 .env.local
-.env.*.local
 *.pem
-*.key
 
-# Logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
+# Local data
+*.sqlite3
+kg_data.sqlite3
+cost_ledger.db
 
-# OS and editor files
+# OS / editor
 .DS_Store
-Thumbs.db
-desktop.ini
-.vscode/
 .idea/
-*.zip
+.vscode/
