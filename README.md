@@ -4,6 +4,7 @@
 
 - **Live Companion Platform & Showcase:** [qa.buildwithdaksh.com](https://qa.buildwithdaksh.com)
 - **Author:** Daksh Chauhan ([buildwithdaksh.com](https://buildwithdaksh.com))
+- **Email:** [me@buildwithdaksh.com](mailto:me@buildwithdaksh.com)
 - **License:** MIT
 
 This README explains the project in plain language first, then gets precise about exactly what's real, what's broken, what's empty, and what's still just a plan. Nothing in this repository has been deleted or tidied away to make it look more finished than it is — if a file is a one-line stub, it's still here, and it's labeled as one.
@@ -214,3 +215,12 @@ The short version of how this moved from "generated in bulk, never actually run"
 **Can I use the Jira adapter?** The code is real and solid, but nothing in `services/api` currently calls it. You'd be wiring it in yourself.
 
 **Where do I start if I want to help?** See [GUIDANCE.md](./GUIDANCE.md) -- it has specific entry points for QA engineers, applied AI/LLM engineers, backend/platform engineers, and engineering leaders who want to pilot this against a real backlog.
+
+---
+
+## Author
+
+**Daksh Chauhan**  
+- **Website:** [buildwithdaksh.com](https://buildwithdaksh.com)  
+- **Email:** [me@buildwithdaksh.com](mailto:me@buildwithdaksh.com)
+
